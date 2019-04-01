@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "473955596344",
+    "firebase_url": "https://quicktap-b9bc9.firebaseio.com",
+    "project_id": "quicktap-b9bc9",
+    "storage_bucket": "quicktap-b9bc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473955596344:android:ecaa0a12f3695f3f",
+        "android_client_info": {
+          "package_name": "com.example.merchantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473955596344-8q1d9srskbatgbd06iikfi233u4fdks1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.merchantapp",
+            "certificate_hash": "b13d45b95a9d0e6aaeec6003c212c94c398be3d1"
+          }
+        },
+        {
+          "client_id": "473955596344-14nhpfpd2od3hef0jrnejm1rok510jbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CPw9cSXnXGaZNZOXwp0VbXFAwZ1Y4YQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473955596344-14nhpfpd2od3hef0jrnejm1rok510jbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

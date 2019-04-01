@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Confirm">
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="30dp"-->
+    <!--android:text="Confirm item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:fontFamily="sans-serif-condensed"-->
+    <!--android:textColor="@android:color/holo_purple"-->
+    <!--android:textSize="30dp"-->
+    <!--/>-->
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:padding="30dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastname"
+        android:hint="Last Name"
+        android:padding="30dp"
+        android:layout_below="@+id/firstname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:padding="30dp"
+        android:layout_below="@+id/lastname"
+        android:hint="Phone No"/>
+
+
+    <Button
+        android:id="@+id/confirm"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="59dp"
+        android:onClick="confirm"
+        android:padding="10dp"
+        android:text="Confirm" />
+    <Button
+        android:id="@+id/reject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm"
+        android:padding="0dp"
+        android:text="Reject" />
+
+</RelativeLayout>
